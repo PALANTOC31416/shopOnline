@@ -1,0 +1,48 @@
+.encabezado {
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/estrategia-envios-ecommerce-1024x576.jpg);
+    background-position: center;
+    padding-top: 8em;
+}
+
+.encabezado h1 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    font-size: 3em;
+    font-family: sans-serif;
+    text-align: center;
+    color: #C26DBC;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 10px;
+}
+
+
+/* Cards en el carrito */
+
+.section-cart {
+    width: 350px;
+    height: auto;
+}
+
+.my-products img {
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.card-in-cart {
+    width: 320px;
+    height: auto;
+    border: black solid 0.5px;
+    border-radius: 5px;
+    margin: 4px 0px;
+    padding: 3px;
+    text-align: center;
+    /* para el texto que se sale del container */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
